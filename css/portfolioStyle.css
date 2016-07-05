@@ -47,14 +47,14 @@ a:hover {
 }
  /* move BG to another part??? */
 .heroHeader {
-
-  height: 400px;
+  height: 200px;
   background-image: url(../images/RayProfileBG2.png);
-  position: relative;
   background-size: 50%;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
+  background-position-y: 2px;
   background-color: transparent;
+  position: relative;
   z-index: -200;
   }
 /* Navigation styles*/
@@ -84,7 +84,7 @@ a:hover {
 .mainHeading {
 	color: ForestGreen;
 	text-align: center;
-	margin-top: -23%;
+	margin-top: 1%;
 	font-size: xx-large;
 	font-weight: 400;
     -webkit-text-stroke: .25px white;
