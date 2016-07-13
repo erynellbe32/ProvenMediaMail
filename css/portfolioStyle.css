@@ -43,19 +43,19 @@ a:hover {
 	text-align: center;
     padding-top:20px;
     padding-bottom: 20px;
-    padding-top: 20px;
+
 }
  /* move BG to another part??? */
 .heroHeader {
-
-  height: 400px;
-  background-image: url(../images/RayProfileBG.png);
-  position: relative;
-  background-size: 20%;
+  height: 200px;
+  background-image: url(../images/RayProfileBG2.png);
+  background-size: 50%;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
+  background-position-y: 2px;
   background-color: transparent;
-  
+  position: relative;
+  z-index: -200;
   }
 /* Navigation styles*/
 .topNavUl {
@@ -84,7 +84,7 @@ a:hover {
 .mainHeading {
 	color: ForestGreen;
 	text-align: center;
-	margin-top: -15%;
+	margin-top: 1%;
 	font-size: xx-large;
 	font-weight: 400;
     -webkit-text-stroke: .25px white;
@@ -165,14 +165,8 @@ a:hover {
 
 .tripwire1 {
 	display: block;
-	background: white; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(45deg, white, transparent, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(45deg, white, transparent, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(45deg, white, transparent, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(45deg, white, transparent, white); /* Standard syntax */
-    height: 200px;
-    margin-top: 380px
-
+	background-color: white;
+	border-radius: 4px;
 }
 
 
